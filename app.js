@@ -3,7 +3,6 @@ const app = express()
 const port = 3000
 
 //Comment Line
-// Emilys special comment
 app.get('/', (req, res) => res.send('Hello World!'))
 app.get('/demo/:id', (req, res) => {
     res.send(`Hello Guest`)
